@@ -6,13 +6,13 @@ body {
     height: 100vh;
 }
  body {
-    background: url("/imagens/fundo-madeira.jpg")no-repeat top center ;
+    background: url("/imagens/fundo-madeira.jpg")no-repeat top center ;  /*background medeira*/
     background-size: cover;
     background-attachment: fixed;
  }
 
 * {
-    margin: 0px;
+    margin: 0px;   
     padding: 0px;
 }
 
@@ -25,13 +25,13 @@ main {
 
 section#telefone {
 
-    width: 211px;
+    width: 211px;  /*tamanho do celular*/
     height: 427px;
 
-    position: absolute;
+    position: absolute; /*Posititon absulute para que possamos alterar com a propriedade top e left*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*transform:translate para que possamos centralizar o objeto de forma responsiva.*/
     background-image: url("/imagens/frame-iphone1.png");
 
 }
@@ -40,7 +40,7 @@ iframe#home{
     width: 178px;
     height:312px;
     position: absolute;
-    top: 50%;
+    top: 50%;                 /*oque vemos dentro do celular e um iframe criamos a pagina 'home.html 'zeramos o padding e a margin para que nao tenhamos barra de rolagem propriconando o efeito visual a pagina*/ 
     left:50%;
     transform: translate(-50%, -50%);
     background-size: cover;
