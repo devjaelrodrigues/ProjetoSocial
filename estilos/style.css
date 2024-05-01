@@ -45,3 +45,23 @@ iframe#home{
     transform: translate(-50%, -50%);
     background-size: cover;
 }
+    #redes  a  img {
+
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    display: block;
+    position: relative;
+    left: 90%;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+    
+ }
+   
+    #redes img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.66);
+        transform: translate(-5px , -5px );
+        box-shadow: 5px 5px 10px black;
+        transition: 0.5s;
+
+    }
